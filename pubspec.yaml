@@ -1,0 +1,30 @@
+name: flutter_5_oy_imtixon
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  intl: ^0.20.2
+  path: ^1.9.0
+  riverpod: ^2.6.1
+  sqflite: ^2.4.1
+  gsheets: ^0.4.2
+  flutter_dotenv: ^5.1.0
+  get: ^4.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/credentials.json
